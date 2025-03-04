@@ -21,10 +21,10 @@
     </header>
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre nosotros</a>
+            <a href="#body">Inicio</a>
+            <a href="views/sobre-nosotros.html">Sobre nosotros</a>
             <a href="views/Login.html">Clientes</a>
-            <a href="#">Contacto</a>
+            <a href="#formulario">Contacto</a>
         </nav>
     </div>
 
