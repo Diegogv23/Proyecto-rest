@@ -23,7 +23,7 @@
         <nav class="navegacion-principal contenedor">
             <a href="#">Inicio</a>
             <a href="#">Sobre nosotros</a>
-            <a href="#">Clientes</a>
+            <a href="views/Login.html">Clientes</a>
             <a href="#">Contacto</a>
         </nav>
     </div>
