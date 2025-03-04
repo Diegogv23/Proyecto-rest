@@ -1,7 +1,3 @@
-<?php
-session_start(); // Iniciar sesión si hay autenticación
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -108,28 +104,30 @@ session_start(); // Iniciar sesión si hay autenticación
             <form class="formulario">
                 <fieldset>
                     <legend>Contactanos llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu Nombre">
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Telefono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Mail">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
                     </div>
 
-                    <div>
-                        <label>Telefono</label>
-                        <input type="text" placeholder="Tu Telefono">
-                    </div>
-
-                    <div>
-                        <label>Correo</label>
-                        <input type="email" placeholder="Mail">
-                    </div>
-
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
                     </div>
 
                 </fieldset>
@@ -137,7 +135,7 @@ session_start(); // Iniciar sesión si hay autenticación
 
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 Proyecto MIG (SENA). Todos los derechos reservados.</p>
     </footer>
 </body>
