@@ -9,6 +9,7 @@ Sistema POS desarrollado en PHP como parte del curso de Análisis y Diseño de S
   - Configurar Git y definir el flujo de trabajo.  
   - Crear la estructura HTML del login.  
   - Revisar y hacer merge de las ramas.  
+  - Crear la pagina principal junto con su css
 
 - **Arley (Backend - feature/login-backend)**  
   - Crear la base de datos y la tabla `usuarios`.  
