@@ -14,11 +14,11 @@ Sistema POS desarrollado en PHP como parte del curso de Análisis y Diseño de S
   - TERMINADO lanzado al main 04/03/2025
   
 
-- **Arley (Backend - feature/login-backend)**  
+- **Arley (Backend)**  
   - Crear la base de datos y la tabla `usuarios`.  
   - Desarrollar el sistema de autenticación en PHP.  
 
-- **Dayana (CSS - feature/login-frontend)**  
+- **Dayana (frontend)**  
   - Diseñar los estilos en CSS.  
   - Adaptar la interfaz visual del login.
 
@@ -39,14 +39,14 @@ Sistema POS desarrollado en PHP como parte del curso de Análisis y Diseño de S
 
 ## Asignación de tareas  
 
-- **Diego**  
+- **Diego (frontend and backend)**  
   - Diseñar la vista sobre nosotros completa (HTML y CSS).
   - Crear la tabla contactenos y desarrollar el sistema de vinculacion para el contacto de futuros clientes. 
   
 
-- **Arley**  
+- **Arley (frontend)**  
   - Diseñar los estilos en CSS para Menu-principal.  
   - Adaptar la interfaz visual del menu principal junto con su responsive.  
 
-- **Dayana **  
+- **Dayana (backend)**  
   - Diseñar vista/estructura Menu-principal en html.
