@@ -146,6 +146,7 @@ h3 {
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
+    border-radius: 1rem;
 }
 
 /* Hero */
