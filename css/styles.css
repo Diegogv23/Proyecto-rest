@@ -59,6 +59,16 @@ button:hover {
     background-color: rgb(75, 33, 5);
 }
 
+.volver-btn:hover {
+    background-color: #a04000;
+}
+
+a {
+    color: rgb(75, 33, 5);
+    text-decoration: none;
+    font-size: 14px;
+}
+
 a {
     color: rgb(75, 33, 5);
     text-decoration: none;
