@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,21 +6,14 @@
     <title>Iniciar Sesión MIG</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="login-container">
         <h1>Bienvenido a MIG</h1>
         <p>Por favor, inicia sesión para continuar</p>
-
-        <!-- Mostrar mensaje de error si existe -->
-        <?php if (isset($_SESSION["error"])): ?>
-            <p style="color: red; font-weight: bold;">
-                <?php echo $_SESSION["error"]; ?>
-            </p>
-            <?php unset($_SESSION["error"]); // Eliminar mensaje después de mostrarlo ?>
-        <?php endif; ?>
-
-        <form action="../php/login.php" method="POST">
+        
+        <form action="/php/login.php" method="POST">
             <label for="username">Usuario:</label>
             <input type="text" id="username" name="username" required placeholder="Ingresa tu usuario">
             
