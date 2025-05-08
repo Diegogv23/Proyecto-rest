@@ -11,6 +11,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    
     /*scroll-snap-type: y mandatory;*/
 }
 /*
@@ -32,6 +33,7 @@ body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro 0%, var(--blanco) 100%));
+    padding-bottom: 50px;
 }
 
 .contenedor {
@@ -150,3 +152,90 @@ h3 {
     border-radius: 1rem;
 }
 
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que los elementos se acomoden si no hay espacio */
+    align-items: flex-start; /* Evita que se alineen perfectamente */
+}
+
+section div div {
+    background-color: #f4f4f4; /* Color de fondo para la tarjeta */
+    padding: 15px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de caja */
+    text-align: center;
+    width: 200px; /* Ancho fijo de cada tarjeta */
+    margin-top: random(30px, 100px); /* Márgenes aleatorios para que no estén alineados */
+    overflow: hidden;
+}
+
+section div div {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+    margin-top: 30px;
+    overflow:hidden;
+}
+
+section div div img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.qs:hover, .ns:hover, .mv:hover { /*hover, efecto de cambio de color al pasar el mause*/
+    background-color: #FFC107; 
+    transition: backgraund-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.qs, .ns, .mv {
+    font-size: 18px;
+}
+
+.qmas {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0097A7;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    position: re;
+    bottom: 0;
+    left: 0;
+}
+.boton:hover {
+    background-color: #FFC107; 
+    transition: backgraund-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.ts{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    margin: 50px auto; 
+    width: 80%;
+    text-align: center;
+}
+.ts:hover {
+    background-color: #FFC107; 
+    transition: backgraund-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
